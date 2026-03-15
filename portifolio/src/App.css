@@ -33,4 +33,8 @@
 
 .botao_red{
     background-color: var(--red);
+    display: flex; /*CONFIGURAÇÃO DO ESPAÇO DO TEXTO DO BOTÃO btn*/
+    align-items: center; /*CONFIGURAÇÃO DO ESPAÇO DO TEXTO DO BOTÃO btn*/
+    text-decoration: none;
 }
+
