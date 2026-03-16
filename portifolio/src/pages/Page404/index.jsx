@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import Container from "../../components/Container";
-import styles from "./Page4040.module.css";
+import styles from "./Page404.module.css";
 
 
 function Page404() {
