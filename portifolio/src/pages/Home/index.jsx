@@ -4,7 +4,6 @@ import styles from "./Home.module.css";
 
 function Home() {
   return (
-    <>
       <section className={styles.home}>
         {/*  */}
         <div className={styles.apresentacao}>
@@ -25,7 +24,6 @@ function Home() {
           />
         </figure>
       </section>
-    </>
   );
 }
 

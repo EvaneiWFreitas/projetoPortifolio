@@ -1,0 +1,59 @@
+.sobre {
+    width: 100%;
+    min-height: 85vh;
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.bio span {
+    color: var(--red);
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.bio strong {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--terceary);
+}
+
+.textos h2,
+p {
+    font-family: cursive;
+    margin-bottom: 1rem;
+}
+
+.textos p {
+    font-size: 20px;
+}
+
+.techs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icones{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icones img{
+    height: 50px;
+}
