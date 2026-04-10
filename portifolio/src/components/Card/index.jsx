@@ -4,7 +4,7 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { FaJsSquare } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import {Link} from 'react-router-dom'
+
 
 
 function Card({ name, description, html_url }){
@@ -19,9 +19,9 @@ function Card({ name, description, html_url }){
                    <FaJsSquare />
                    <FaReact />         
                 </div>
-                <Link to={html_url} className={styles.card_botao}>
+                <a href={html_url} target="_blank" rel="nopenner norefferer" className={styles.card_botao}>
                     <FaLongArrowAltRight />
-                </Link>
+                </a>
             </div>
         </section>
     )

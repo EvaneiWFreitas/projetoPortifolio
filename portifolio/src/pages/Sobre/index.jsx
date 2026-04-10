@@ -1,5 +1,5 @@
 import styles from "./Sobre.module.css";
-import avatar from "./images/FotoEvanei-fotor-2026033014275.png";
+import avatar from "./images/fotoNovaNey.png";
 import html from "./images/icon-html.svg";
 import css from "./images/icon-css.svg";
 import js from "./images/icon-js.svg";
