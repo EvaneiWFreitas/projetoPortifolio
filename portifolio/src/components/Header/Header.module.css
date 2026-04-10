@@ -24,5 +24,6 @@
 }
 
 .header a:hover{
-    color:var(--red)
+    color:var(--red);
+    transition: all .9s;
 }
